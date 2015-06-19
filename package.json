@@ -1,0 +1,33 @@
+{
+  "name": "sails-hook-annotations",
+  "version": "1.0.0",
+  "description": "Add annotations support for Sails.js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sails",
+    "sailsjs",
+    "annotation",
+    "annotations",
+    "policy",
+    "route"
+  ],
+  "author": "Konstantin Zolotarev <konstantin.zolotarev@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konstantinzolotarev/sails-hook-annotation-policy.git"
+  },
+  "dependencies": {
+    "async": "^1.2.1",
+    "conga-annotations": "^0.1.8",
+    "glob": "^5.0.10",
+    "lodash": "^3.9.3"
+  },
+  "sails": {
+    "isHook": true
+  }
+}
