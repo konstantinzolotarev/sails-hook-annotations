@@ -19,7 +19,7 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/konstantinzolotarev/sails-hook-annotation-policy.git"
+    "url": "https://github.com/konstantinzolotarev/sails-hook-annotations.git"
   },
   "dependencies": {
     "async": "^1.2.1",
