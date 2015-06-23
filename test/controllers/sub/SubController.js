@@ -2,10 +2,7 @@
 
 module.exports = {
 
-  /**
-   *
-   * @Route("/test")
-   */
+  /** @Route("/test") */
   index: function(req, res) {
     return res.send('SubController.index');
   },

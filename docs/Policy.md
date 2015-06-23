@@ -1,6 +1,6 @@
 ## Policy annotations
 
-This hook allow developers to define Policies for actions using annotations.
+Allow developers to define Policies for actions using annotations.
 
 For this you could use `@Policy("")` annotation. **It works only with double quotes!**
 
