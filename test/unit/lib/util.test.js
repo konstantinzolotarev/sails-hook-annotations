@@ -13,12 +13,12 @@ describe('Util :: ', function() {
     });
 
     it('Should return full controller name', function() {
-      var path = '../somepath/somewhere/TestController.js';
-      expect(util.getControllerName(path)).to.be.eq('TestController');
+      var path = '/somewhere/TestController.js';
+      expect(util.getControllerName(path)).to.be.eq('somewhere/TestController');
     });
 
     it('should work with Controllername.coffee', function() {
-      var path = '../somepath/somewhere/TestController.coffee';
+      var path = '/TestController.coffee';
       expect(util.getControllerName(path)).to.be.eq('TestController');
     });
   });
